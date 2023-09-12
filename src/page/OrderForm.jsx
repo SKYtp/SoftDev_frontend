@@ -53,6 +53,34 @@ function OrderForm() {
                 <div>
                     <label>Order Name:</label>
                     <input type="text" name="order_name" onChange={handleInputChange} />
+                    <br/>
+                    <label>skin_num:</label>
+                    <input type="text" name="skin_num" onChange={handleInputChange} />
+                    <br/>
+                    <label>rank:</label>
+                    <input type="text" name="rank" onChange={handleInputChange} />
+                    <br/>
+                    <label>win_rate:</label>
+                    <input type="text" name="win_rate" onChange={handleInputChange} />
+                    <br/>
+                    <label>gold:</label>
+                    <input type="text" name="gold" onChange={handleInputChange} />
+                    <br/>
+                    <label>diamond:</label>
+                    <input type="text" name="diamond" onChange={handleInputChange} />
+                    <br/>
+                    <label>marble:</label>
+                    <input type="text" name="marble" onChange={handleInputChange} />
+                    <br/>
+                    <label>coupon:</label>
+                    <input type="text" name="coupon" onChange={handleInputChange} />
+                    <br/>
+                    <label>price:</label>
+                    <input type="text" name="price" onChange={handleInputChange} />
+                    <br/>
+                    <label>hero_num:</label>
+                    <input type="text" name="hero_num" onChange={handleInputChange} />
+                    <br/>
                 </div>
                 {/* Add similar input fields for other order details */}
                 <div>
