@@ -19,7 +19,7 @@ function WebNav(){
                     <NavDropdown.Item as={Link} to="/login">
                         Login
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/boost">boost</NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#action/3.4">
                         Separated link

@@ -5,6 +5,7 @@ import OrderForm from "./page/OrderForm";
 import Register from "./page/register";
 import OrderList from "./page/orderList";
 import Login from "./page/login";
+import BoostForm from "./page/BoostForm";
 
 
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/register" element={<Register/>}/>
         <Route path="/orderList" element={<OrderList/>}/>
         <Route path="/login" element={<Login/>}/>
+        <Route path="/boost" element={<BoostForm/>}/>
       </Routes>
     </BrowserRouter>
   );
